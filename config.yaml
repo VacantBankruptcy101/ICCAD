@@ -1,0 +1,13 @@
+provider: "openai"  # Switch to "anthropic" to use Claude instead
+
+openai:
+  api_key: "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"
+  model: "gpt-4o-mini"
+
+anthropic:
+  api_key: "apikey_01Rj2N8SVvo6BePZj99NhmiT"
+  model: "claude-haiku-4-5"
+
+generation:
+  temperature: 0.2
+  max_output_tokens: 4096
